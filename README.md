@@ -49,16 +49,23 @@ knowledge_repo create Rmd example_post.Rmd
 4\. Edit the notebook file `example_post.ipynb` or `example_post.Rmd` as you normally would.
 
 5\. Add your post to the repo with in-repository path of `project/example`
+
+**Note:** This command checks out (and/or creates) a new branch (`project/example.kp`), then adds the file and commits it.
+
 ```
 knowledge_repo add <post_path> -p project/example
 ```
 
 6\. Preview the added post to ensure everything is rendering correctly
+
 ```
 knowledge_repo preview project/example
 ```
 
 7\. Submit post as a new git branch in this repository
+
+**Note:** This command pushes the branch (`project/example.kp`) to the remote repo
+
 ```
 knowledge_repo submit project/example
 ```

@@ -1,4 +1,6 @@
-# Knowledge Repository
+# BMS Knowledge Repository
+
+**http://knowledge-repo.enablescience.org/**
 
 This is a git repository that stores documents called "Knowledge Posts" in a
 format compatible with the [Knowledge Repo](https://github.com/airbnb/knowledge-repo)

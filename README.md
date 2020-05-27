@@ -20,9 +20,11 @@ source .venv/bin/activate
 pip install  --upgrade "knowledge-repo[all]"
 ```
 
-2\. Clone this repository to your local machine
+2a\. Fork this repository to your own GitHub account
+
+2b\. Clone this repository to your local machine
 ```
-git clone https://github.com/bioteam/bms-knowledge-repo.git
+git clone https://github.com/{your-account-with-fork}/bms-knowledge-repo.git
 ```
 **Note:** If you regularly interact with this repository, you can avoid having to type `--repo <repo_path>` in all of the below commands by exporting a shell environment variable:
 
